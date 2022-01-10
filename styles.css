@@ -1,0 +1,101 @@
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:#1F2B61;
+    padding: 15px;
+    font-size: 20px; 
+    font-family: sans-serif;
+    font-weight: 400;
+    color:beige;
+}
+body
+{
+    margin: 0px;
+    /* modify background color here*/
+    background-color: #2F4194;
+    
+}
+
+.bodyimg img
+{
+    position: absolute;
+   /* height:fit-content;*/
+}
+
+/*.bodyimg p
+{
+    position:absolute;
+    margin: 40px;
+    font-family: Verdana;
+    font-size: 50px;
+    top: 10%;
+    color: #ffffff;
+}
+
+.bodyimg h3
+{
+    position:absolute;
+    margin: 40px;
+    font-family: Verdana;
+    font-size: 25px;
+    top: 30%;
+    left: 1%;
+    color: #ffffff;
+}*/
+
+.grid
+{
+    position: absolute;
+    top:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    font-family: sans-serif;
+    
+}
+
+.origami 
+{
+    
+    border-radius: 50%;
+    background-color:#E2D0C8; 
+    padding: 180px;
+    margin: 70px;
+    width:300px;
+    
+}
+
+.origami h3
+{
+    font-family: Cute Notes;
+    font-size: 50px;
+    color: #6B5127; 
+}
+
+.origami ol, ul
+{
+    font-family: Sticky Notes;
+    font-size: 30px;
+    color: #000000; 
+}
+
+.origami img
+{
+    border: 3px solid ;
+    color: #EBB054;
+    border-radius: 50px;
+    opacity: 0.3;
+    margin: 10px;
+}
+
+.origami img:hover
+{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+a:visited 
+{
+    color: #EBC36C;
+}
